@@ -1,0 +1,64 @@
+.support {
+	.support-content {
+		padding: 50px 130px;
+
+		.support-title {
+			font-size: 18px;
+			color: #3F3A3A;
+		}
+		.support-contact {
+			padding: 40px 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.support-code {
+				font-size: 14px;
+				display: flex;
+
+				ul {
+					margin-left: 20px;
+					line-height: 2;
+				}
+			}
+		}
+		.support-form {
+			.support-form-title {
+				font-size: 18px;
+				color: #3F3A3A;
+				padding-bottom: 20px;
+			}
+			textarea {
+				resize: none;
+			}
+			.support-form-item {
+				width: 360px;
+			}
+		}
+	}
+}
+@media all and (max-width:768px) {
+	:root {
+		.support {
+			.channel {
+				.channel-footer {
+					li {
+						width: 100%;
+					}
+				}
+			}
+			.support-content {
+				padding: 50px 40px;
+
+				.support-code {
+					align-items: flex-start;
+
+					ul {
+						margin-left: 10px;
+						line-height: 1.5;
+					}
+				}
+			}
+		}
+	}
+}

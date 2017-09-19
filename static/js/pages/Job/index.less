@@ -1,0 +1,66 @@
+.job {
+	p {
+		font-size: 18px;
+		color: #3F3A3A;
+		line-height: 1.8;
+		padding-top: 20px;
+	}
+	.job-content {
+		padding: 50px 130px;
+	}
+	.job-info {
+		background: #ECF0F7;
+		padding: 40px 0;
+
+		p {
+			display: flex;
+			align-items: center;
+		}
+		.job-content {
+			padding: 0 130px;
+		}
+		a {
+			margin-left: 20px;
+			display: flex;
+			align-items: center;
+			background: #17A094;
+			border-radius: 4px;
+			height: 44px;
+			padding: 0 16px;
+			font-size: 18px;
+			text-decoration: none;
+			color: #FFFFFF;
+			transition: .3s;
+
+			&:hover {
+				opacity: 0.6;
+			}
+			img {
+				margin-right: 10px;
+			}
+		}
+	}
+}
+@media all and (max-width:768px) {
+	:root {
+		.job {
+			.channel {
+				.channel-footer {
+					li {
+						width: 100%;
+					}
+				}
+			}
+			.job-content {
+				padding: 50px 40px;
+			}
+			.job-info {
+				padding: 20px 0;
+
+				.job-content {
+					padding: 0 50px;
+				}
+			}
+		}
+	}
+}
