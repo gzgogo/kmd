@@ -38,7 +38,7 @@ export default class Support extends React.Component {
 								<li>客服邮箱：service@kaiumph.com</li>
 							</ul>
 						</div>
-						<img src={require('img/support/1.png')} alt=''/>
+						<img className="img-hand" src={require('img/support/1.png')} alt=''/>
 					</div>
 					<div className='support-form'>
 						<div className='support-form-title'>请您留言</div>

@@ -45,46 +45,15 @@ export default class Service extends React.Component {
 						<div>
 							<div id="service-desc1" dangerouslySetInnerHTML={{__html: this.strings.service_1_content}}></div>
 							<div className="service-content-triangle">
-								<div className="service-content-triangle-inner">
-									<div className='service-content-ellipse'><span>{this.strings.service_1_trig_1}</span></div>
-									<div className='service-content-ellipse'><span>{this.strings.service_1_trig_2}</span></div>
-									<div className='service-content-ellipse'><span>{this.strings.service_1_trig_3}</span></div>
-								</div>
-							</div>
+                <img src={require('img/service/service1-content.png')} alt=""/>
+              </div>
 						</div>
 					)}
 					{type == 2 && (
 						<div>
               <div id="service-desc2" dangerouslySetInnerHTML={{__html: this.strings.service_2_content}}></div>
 							<div className='service-content-circles'>
-								<div className='service-content-circle'>
-									<div className='service-content-fan'><span>{this.strings.service_2_circle_1}</span></div>
-									<div className='service-content-ellipse'>
-										{/*<strong>83项</strong><br/>*/}
-										<span>{this.strings.service_2_square_1}</span>
-									</div>
-								</div>
-								<div className='service-content-circle'>
-									<div className='service-content-fan'><span>{this.strings.service_2_circle_2}</span></div>
-									<div className='service-content-ellipse'>
-										{/*<strong>4项</strong><br/>*/}
-										<span>{this.strings.service_2_square_2}</span>
-									</div>
-								</div>
-								<div className='service-content-circle'>
-									<div className='service-content-fan'><span>{this.strings.service_2_circle_3}</span></div>
-									<div className='service-content-ellipse'>
-										{/*<strong>13项</strong><br/>*/}
-										<span>{this.strings.service_2_square_3}</span>
-									</div>
-								</div>
-								<div className='service-content-circle'>
-									<div className='service-content-fan'><span>{this.strings.service_2_circle_4}</span></div>
-									<div className='service-content-ellipse'>
-										{/*<strong>7类</strong><br/>*/}
-										<span>{this.strings.service_2_square_4}</span>
-									</div>
-								</div>
+                <img src={require('img/service/service2-content.png')} alt=""/>
 							</div>
 						</div>
 					)}

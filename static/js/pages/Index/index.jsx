@@ -54,7 +54,7 @@ export default class Index extends React.Component {
 						<li>
 							<span className='index-nav-title'>职业发展</span>
 							<span className='index-nav-content'>查看最新职位需求</span>
-							<Link to='job'>加入我们</Link>
+							<Link to='support'>加入我们</Link>
 						</li>
 					</ul>
 				</div>

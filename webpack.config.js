@@ -75,7 +75,7 @@ var common = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            favicon: path.resolve(__dirname, 'static/img/favicon.ico'),
+            favicon: path.resolve(__dirname, 'static/img/favicon.png'),
             filename: 'index.html',
             chunks: ['main'],
             title: '座机专营网',
@@ -138,7 +138,7 @@ if (TARGET === 'build') {
                 }
             }),
             new HtmlWebpackPlugin({
-                favicon: path.resolve(__dirname, 'static/img/favicon.ico'),
+                favicon: path.resolve(__dirname, 'static/img/favicon.png'),
                 filename: 'index.html',
                 chunks: ['main'],
                 title: '座机专营网',
